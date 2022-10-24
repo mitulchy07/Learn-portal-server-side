@@ -21,6 +21,7 @@ app.get('/products', (req, res) => {
 
 app.get('/categories/:id', (req, res) => {
   const id = req.params.id;
+  console.log(id);
   const category_products = products.filter((n) => n.category === id);
   res.send(category_products);
 });
