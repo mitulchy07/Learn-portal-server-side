@@ -1,26 +1,26 @@
 [
   {
-    "id": "01",
+    "id": "1",
     "name": "Learn Cyber Security"
   },
   {
-    "id": "02",
+    "id": "2",
     "name": "Learn Python"
   },
   {
-    "id": "03",
+    "id": "3",
     "name": "Learn React Native"
   },
   {
-    "id": "04",
+    "id": "4",
     "name": "Learn Flutter"
   },
   {
-    "id": "05",
+    "id": "5",
     "name": "Learn MongoDB"
   },
   {
-    "id": "06",
+    "id": "6",
     "name": "Learn SEO"
   }
 ]
