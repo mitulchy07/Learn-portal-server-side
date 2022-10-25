@@ -15,7 +15,7 @@ app.get('/categories', (req, res) => {
   res.send(categories);
 });
 
-app.get('/products', (req, res) => {
+app.get('/courses', (req, res) => {
   res.send(products);
 });
 
@@ -26,7 +26,7 @@ app.get('/categories/:id', (req, res) => {
   res.send(category_products);
 });
 
-app.get('/products/:id', (req, res) => {
+app.get('/courses/:id', (req, res) => {
   const id = req.params.id;
   const selectedproducts = products.find((n) => n.id === id);
   res.send(selectedproducts);
